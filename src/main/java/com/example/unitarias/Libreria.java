@@ -28,4 +28,8 @@ public class Libreria {
         }
         return count;
     }
+
+    public void prestarLibro(String titulo) {
+        libros.remove(titulo);
+    }
 }
